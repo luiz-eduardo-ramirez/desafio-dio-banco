@@ -1,19 +1,7 @@
-public class ContaCorrente {
+public class ContaCorrente extends Conta {
 
-    public int agencia;
-    public int numero;
-    public double saldo;
-
-    public void depositar() {
-
+    public void imprimirExtrato() {
+        System.out.println("Extrato da conta corrente");
+        imprimirInfoComuns();
     }
-
-    public void sacar() {
-
-    }
-
-    public void transferir() {
-
-    }
-
 }
